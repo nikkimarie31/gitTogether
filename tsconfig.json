@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "typeRoots": ["node_modules/@types"],
+    "forceConsistentCasingInFileNames": true,
+    "target": "ES2020",
+    "module": "commonjs",
+    "rootDir": "./src",
+ 
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true
+  },
+  "include": ["src/**/*", "src/type.d.ts", "src/types.d.ts"],  // Ensure this line includes the custom types
+  "exclude": ["node_modules"]
+}
